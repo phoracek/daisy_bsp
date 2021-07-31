@@ -16,6 +16,7 @@ pub mod alloc;
 pub mod audio;
 pub mod board;
 pub mod clocks;
+pub mod flash;
 #[cfg(any(feature = "log-itm"))]
 pub mod itm;
 pub mod led;
