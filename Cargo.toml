@@ -35,9 +35,10 @@ cortex-m-semihosting = "0.3.5"
 
 # - optional dependencies used by features
 
+# Rebased https://github.com/stm32-rs/stm32h7xx-hal/pull/230 on master
 [dependencies.stm32h7xx-hal]
-git = "https://github.com/richardeoin/stm32h7xx-hal"
-rev = "01aa7528ce9b58911082ea9bd412c9d4a83c53e6"
+git = "https://github.com/phoracek/stm32h7xx-hal"
+rev = "bacb2588dd7e7ff04523d80a08a0a0e500d3679f"
 features = [ "stm32h750v", "rt", "revision_v", "usb_hs", "xspi", "rm0433" ]
 
 [dependencies.static-alloc]
